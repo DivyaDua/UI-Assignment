@@ -1,0 +1,39 @@
+.navbar{
+margin-bottom: 0px;
+background-color: white;
+}
+
+#a{
+     background: url("../images/image1.jpeg") no-repeat;
+     height:300px;
+     width:100%;
+     background-size:cover;
+}
+
+#b{
+padding-top: 20px;
+font-size:30px;
+}
+
+.c{
+font-size:20px;
+}
+
+#d{
+margin: 10px 10px 10px 20px;
+
+}
+
+#services{
+text-align: right;
+background-color: #000000;
+color: #ffffff;
+height: 520px;
+}
+
+button{
+font-size: 10px;
+size: 40px;
+background-color:#5DADE2;
+}
+
