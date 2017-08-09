@@ -4,10 +4,14 @@ background-color: white;
 }
 
 #a{
-     background: url("../images/image1.jpeg") no-repeat;
+     background: url("../images/imagep7.jpg") no-repeat;
      height:300px;
      width:100%;
      background-size:cover;
+}
+
+.fa{
+color:  #85c1e9;
 }
 
 #b{
@@ -32,8 +36,18 @@ height: 520px;
 }
 
 button{
-font-size: 10px;
+font-size: 20px;
 size: 40px;
+height:40px;
+width:200px;
 background-color:#5DADE2;
 }
 
+#book{
+background-color:#283747;
+color: #ffffff;
+}
+
+#form-padding-class{
+padding: 20px;
+}
