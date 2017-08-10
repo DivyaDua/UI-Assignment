@@ -51,3 +51,12 @@ color: #ffffff;
 #form-padding-class{
 padding: 20px;
 }
+
+#about-consulting{
+padding:0px 0px 0px 70px;
+}
+
+.para-after-heading{
+text-align: center;
+font-size:20px;
+}

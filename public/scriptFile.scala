@@ -1,0 +1,1 @@
+/home/knoldus/Downloads/font-awesome-4.7.0/fonts

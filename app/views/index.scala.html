@@ -13,7 +13,7 @@
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">PORTFOLIO</a></li>
                 <li><a href="#">CONTACT</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                <li><a href="#"><i class="fa fa-search fa-lg"></i></a></li>
             </ul>
 
         </div>
@@ -32,43 +32,47 @@
         <strong>
             <center><h1>ABOUT</h1></center>
         </strong>
-        <p>
-        <center style="font-size:20px;">Knoldus is a team of Passionate Technologists,
-        focused on staying at the edge of the curve.
-        </center>
+        <p class="para-after-heading">
+            Knoldus is a team of Passionate Technologists,
+            focused on staying at the edge of the curve.
         </p>
     </div>
 
     <div class="container-fluid" id="d">
         <div class="row">
-            <div class="col-md-6" style="padding:0px 0px 0px 70px;">
-                <img class="img-responsive" src="@routes.Assets.versioned("/images/image3.jpg")">
+            <div class="col-md-6">
+                <div class="col-md-offset-2">
+                    <img class="img-responsive" src="@routes.Assets.versioned("/images/image3.jpg")">
+                </div>
             </div>
 
             <div class="col-md-6">
-                <div class="col-md-9 col-md-2-offset">
-                <h2>About our consulting</h2>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-10">
-                        <h3><i class="fa fa-bar-chart fa-2x"></i>Boost your business</h3>
-                        <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the curve. </p>
+                <div class="col-md-2-offset col-md-9">
+                    <h2>About our consulting</h2>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <h3><i class="fa fa-bar-chart fa-2x"></i>Boost your business</h3>
+                            <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the
+                                curve. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-10">
-                        <h3><i class="fa fa-bar-chart fa-2x"></i>Best business statistics</h3>
-                        <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the curve. </p>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <h3><i class="fa fa-line-chart fa-2x"></i>Best business statistics</h3>
+                            <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the
+                                curve. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-10">
-                        <h3><i class="fa fa-bar-chart fa-2x " aria-hidden="true"></i>24/7 online support</h3>
-                        <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the curve. </p>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <h3><i class="fa fa-bar-chart fa-2x " aria-hidden="true"></i>24/7 online support</h3>
+                            <p>Knoldus is a team of Passionate Technologists, focused on staying at the edge of the
+                                curve. </p>
+                        </div>
                     </div>
-                </div>
                 </div>
 
             </div>
@@ -80,8 +84,8 @@
         <strong>
             <center><h1>SERVICES</h1></center>
         </strong>
-        <p>
-        <center style="font-size:20px;">Some of the services that we provide..</center>
+        <p class="para-after-heading">
+            Some of the services that we provide..
         </p>
     </div>
 
@@ -91,9 +95,9 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="row" style="padding: 20px;">
-                        <i class="fa fa-briefcase fa-2x"></i>
-                        <h3>Financial Planning</h3>
-                        <p>This is reagarding financial planning..................</p>
+                            <i class="fa fa-briefcase fa-2x"></i>
+                            <h3>Financial Planning</h3>
+                            <p>This is reagarding financial planning..................</p>
                         </div>
                         <div class="row" style="padding: 20px;">
                             <i class="fa fa-bar-chart fa-2x"></i>
@@ -126,7 +130,7 @@
 
                 </div>
             </div>
-            <div class="col-md-6" id="services" style="padding:100px 10px;" >
+            <div class="col-md-6" id="services" style="padding:100px 10px;">
                 <h2>Our Services</h2>
                 <p>We love to build Scalable, Performant, Concurrent systems with Functional Programming to
                     meet the needs of the business. Our big data solutions have won accolades in domains like
@@ -162,31 +166,35 @@
 
     <div class="container-fluid" style="margin:0px;">
         <div class="row">
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep8.jpg")"/>
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep10.jpg")"/>
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep8.jpg")"/>
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep10.jpg")"/>
+            <div class="col-md-12">
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep8.jpg")"  style="width=100%"/>
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep10.jpg")"/>
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep8.jpg")"/>
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep10.jpg")"/>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep10.jpg")">
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep8.jpg")">
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep10.jpg")">
-            </div>
-            <div class="col-md-3">
-                <img src="@routes.Assets.versioned("/images/imagep8.jpg")">
+            <div class="col-md-12">
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep10.jpg")">
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep8.jpg")">
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep10.jpg")">
+                </div>
+                <div class="col-md-3" style="padding:0px;">
+                    <img src="@routes.Assets.versioned("/images/imagep8.jpg")">
+                </div>
             </div>
         </div>
     </div>
@@ -201,35 +209,37 @@
     </div>
 
     <div class="container-fluid">
-    <form >
-        <div class="row" style="padding: 10px;">
-            <div class="form-inline">
-                <div class="col-md-4">
-                <div class="form-group">
-                    <input class="form-control" placeholder="Your Name">
-                </div>
-                </div>
-                <div class="col-md-4">
-                <div class="form-group">
-                    <input class="form-control" placeholder="Your Email">
-                </div>
-                </div>
-                <div class="col-md-4">
-                <div class="form-group">
-                    <input class="form-control" placeholder="Subject">
-                </div>
+        <form>
+            <div class="row" style="padding: 10px;">
+                <div class="form-inline">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Subject">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-       <div class="row" style="padding: 20px;">
-           <div class="form-group">
-               <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-           </div>
-       </div>
-        <div class="row">
-            <center><button class="btn btn-default" style="align:center;">Send Now</button></center>
-        </div>
-    </form>
+            <div class="row" style="padding: 20px;">
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <center>
+                    <button class="btn btn-default" style="align:center;">Send Now</button>
+                </center>
+            </div>
+        </form>
     </div>
 </div>
 }
